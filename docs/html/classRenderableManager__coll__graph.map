@@ -1,0 +1,5 @@
+<map id="RenderableManager" name="RenderableManager">
+<area shape="rect" id="Node000001" title=" " alt="" coords="25,139,171,264"/>
+<area shape="rect" id="Node000002" href="$classIComponentManager.html" title="An interface for managing a specific type of component in an ECS architecture." alt="" coords="5,5,191,91"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,104,101,138,95,138,95,104"/>
+</map>

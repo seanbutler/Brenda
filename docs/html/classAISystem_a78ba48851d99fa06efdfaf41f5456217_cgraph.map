@@ -1,0 +1,9 @@
+<map id="AISystem::shouldReplanActivity" name="AISystem::shouldReplanActivity">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,236,80"/>
+<area shape="rect" id="Node000002" href="$classAIManager.html#aa0fe5da7752c8478ae72c9cb26dc7886" title=" " alt="" coords="304,5,425,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,52,290,30,291,35,185,57"/>
+<area shape="rect" id="Node000003" href="$classClock.html#a606f306fd13229f60d07f86cc9de4ca7" title=" " alt="" coords="305,55,424,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="236,65,292,65,292,70,236,70"/>
+<area shape="rect" id="Node000004" href="$classClock.html#abcb74cc346bbd49fb8a7df7deb4c0c9c" title=" " alt="" coords="284,104,445,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="185,77,288,99,287,104,184,83"/>
+</map>

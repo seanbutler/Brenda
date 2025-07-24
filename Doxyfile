@@ -1,0 +1,58 @@
+# Doxyfile 1.9.8
+
+# Project related configuration options
+PROJECT_NAME           = "Brenda"
+PROJECT_BRIEF          = "A simple 2d grid-based ECS SDL3 game engine"
+OUTPUT_DIRECTORY       = docs
+CREATE_SUBDIRS         = NO
+OUTPUT_LANGUAGE        = English
+
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+EXTRACT_ANON_NSPACES   = YES
+
+# Build related configuration options
+FULL_PATH_NAMES        = YES
+STRIP_FROM_PATH        = /home/sean/Projects/verbose-bonobo/Brenda
+
+# Input
+INPUT                  = ./src
+FILE_PATTERNS          = *.h *.cpp
+RECURSIVE              = YES
+
+# HTML output
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+
+# LaTeX output
+GENERATE_LATEX         = NO
+
+# Dot (graphviz) support
+HAVE_DOT               = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+CLASS_DIAGRAMS         = YES
+DOT_IMAGE_FORMAT       	= svg
+COLLABORATION_GRAPH    	= YES
+DOT_GRAPH_MAX_NODES    	= 50
+DOT_TRANSPARENT        	= YES
+DOT_MULTI_TARGETS      	= YES
+DOT_CLEANUP           	= YES
+UML_LOOKUP           	= YES
+UML_LOOK				= YES
+INTERACTIVE_SVG = YES
+
+# Source browser
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+
+# Misc
+QUIET                  = NO
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_NO_PARAMDOC       = YES

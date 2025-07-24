@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch Brenda",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/brenda",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/build",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            // To automatically build before debugging, you can add a preLaunchTask.
+            // You would need a corresponding task defined in tasks.json.
+            // "preLaunchTask": "build brenda"
+        }
+    ]
+}

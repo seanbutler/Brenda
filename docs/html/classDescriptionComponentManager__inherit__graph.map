@@ -1,0 +1,5 @@
+<map id="DescriptionComponentManager" name="DescriptionComponentManager">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,139,225,264"/>
+<area shape="rect" id="Node000002" href="$classIComponentManager.html" title="An interface for managing a specific type of component in an ECS architecture." alt="" coords="23,5,208,91"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,104,118,138,113,138,113,104"/>
+</map>
