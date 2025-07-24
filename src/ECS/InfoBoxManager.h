@@ -2,12 +2,14 @@
 
 #include "IComponentManager.h"
 #include "./components/InfoBoxComponent.h"
-#include "PositionManager.h"
 #include <unordered_map>
 #include <string>
 #include <memory>
 #include <SDL3/SDL.h>
 #include <SDL3_ttf/SDL_ttf.h>
+
+// Forward declaration to break circular dependency
+class PositionManager;
 
 class InfoBoxManager : public IComponentManager {
 public:

@@ -1,4 +1,5 @@
 #include "InfoBoxManager.h"
+#include "PositionManager.h"
 #include <iostream>
 #include <sstream>
 #include <vector>

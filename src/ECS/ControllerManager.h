@@ -1,13 +1,17 @@
 #pragma once
 #include <unordered_map>
 #include <memory>
+#include <iostream>
 #include "Entity.h"
 #include "IComponentManager.h"
 #include "./components/PlayerController.h"
 #include "./components/Controller.h"
-#include "MovementManager.h"
-#include "PositionManager.h"
-#include "../Grid.h" // <-- Add this
+#include <SDL3/SDL.h>
+
+// Forward declarations to break circular dependencies
+class MovementManager;
+class PositionManager;
+class Grid;
 
 class ControllerManager : public IComponentManager {
 public:
@@ -45,22 +49,9 @@ public:
     }
 
     // This replaces the old update() method
-    void handleEvents(const SDL_Event& event, MovementManager& moveManager, PositionManager& posManager, const Grid& grid, int cellSize) {
-        for (auto& [uid, controller] : controllers) {
-            if (controller->type == "player") {
-                if (auto* playerController = dynamic_cast<PlayerController*>(controller.get())) {
-                    playerController->handleEvent(event, uid, moveManager, posManager, grid, cellSize);
-                }
-            }
-        }
-    }
+    void handleEvents(const SDL_Event& event, MovementManager& moveManager, 
+                     PositionManager& posManager, const Grid& grid, int cellSize);
 
-    void dump() override {
-        for (const auto& [uid, desc] : controllers) {
-            if (desc) {
-                std::cout << "Entity UID: " << uid << " Controller Type: " << desc->type << std::endl;
-            }
-        }
-    }      
+    void dump() override;      
 };
 

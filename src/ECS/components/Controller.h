@@ -1,7 +1,8 @@
 #pragma once
 #include <string>
+#include "../IComponent.h"
 
-class Controller : public ECS::IComponent{
+class Controller : public ECS::IComponent {
 
 public:
     std::string type;
