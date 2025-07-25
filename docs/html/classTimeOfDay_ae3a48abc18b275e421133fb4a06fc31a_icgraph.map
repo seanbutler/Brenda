@@ -1,9 +1,0 @@
-<map id="TimeOfDay::isWorkHours" name="TimeOfDay::isWorkHours">
-<area shape="rect" id="Node000001" title=" " alt="" coords="296,63,481,88"/>
-<area shape="rect" id="Node000002" href="$classTimeOfDay.html#a7ed5281d460174bb4d16806132f372c0" title=" " alt="" coords="5,5,248,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="319,62,247,46,189,33,190,28,249,41,321,57"/>
-<area shape="rect" id="Node000003" href="$classTimeOfDay.html#af58c96672e2e306ac810e88db09fa0ea" title=" " alt="" coords="26,55,227,95"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="282,78,227,78,227,73,282,73"/>
-<area shape="rect" id="Node000004" href="$classTimeOfDay.html#a658bb98f26f2b306040153bf2c11c84d" title=" " alt="" coords="9,120,244,145"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="321,94,249,110,190,123,189,117,247,105,319,88"/>
-</map>

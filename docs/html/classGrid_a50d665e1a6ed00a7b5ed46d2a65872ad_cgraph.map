@@ -1,5 +1,0 @@
-<map id="Grid::dump" name="Grid::dump">
-<area shape="rect" id="Node000001" title="Dumps the grid to console in ASCII format Shows obstacles as &#39;#&#39; and movement costs as numbers." alt="" coords="5,5,100,31"/>
-<area shape="rect" id="Node000002" href="$classGrid.html#ae448ea0d444c23fe89743430b040537c" title=" " alt="" coords="148,5,219,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,15,134,15,134,21,100,21"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="MovementManager::canEntityMove" name="MovementManager::canEntityMove">
-<area shape="rect" id="Node000001" title="Checks if an entity can accept new movement commands." alt="" coords="5,5,260,31"/>
-<area shape="rect" id="Node000002" href="$classMovementManager.html#a114bf0653e258541fe63e3e5144aba20" title=" " alt="" coords="308,5,487,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="260,15,294,15,294,21,260,21"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="DescriptionComponent" name="DescriptionComponent">
-<area shape="rect" id="Node000001" title="Component to store a descriptive string for an entity." alt="" coords="5,119,193,204"/>
-<area shape="rect" id="Node000002" href="$classECS_1_1IComponent.html" title=" " alt="" coords="35,5,164,71"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,85,102,119,97,119,97,85"/>
-</map>

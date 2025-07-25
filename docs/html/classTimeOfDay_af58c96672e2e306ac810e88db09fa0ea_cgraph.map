@@ -1,7 +1,0 @@
-<map id="TimeOfDay::isGoodTimeForLeisure" name="TimeOfDay::isGoodTimeForLeisure">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,207,63"/>
-<area shape="rect" id="Node000002" href="$classTimeOfDay.html#a2492eebe8a39c1436a27110c4678ba34" title=" " alt="" coords="256,5,439,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,30,242,26,243,32,207,35"/>
-<area shape="rect" id="Node000003" href="$classTimeOfDay.html#ae3a48abc18b275e421133fb4a06fc31a" title=" " alt="" coords="255,55,440,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="207,51,241,54,240,59,207,56"/>
-</map>

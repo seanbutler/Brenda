@@ -1,9 +1,0 @@
-<map id="Clock::update" name="Clock::update">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,116,31"/>
-<area shape="rect" id="Node000002" href="$classClock.html#a31209395c2d9bb7467abeaea8382e1ce" title=" " alt="" coords="164,5,391,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,15,150,15,150,21,116,21"/>
-<area shape="rect" id="Node000003" href="$classTimeOfDay.html#a97e4bb6a1ed1e33f3f122ed243fdc5fb" title=" " alt="" coords="439,5,651,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="391,15,425,15,425,21,391,21"/>
-<area shape="rect" id="Node000004" href="$classTimeOfDay.html#ab984981362421551c0548e2fd3916ee0" title=" " alt="" coords="699,5,901,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="651,15,685,15,685,21,651,21"/>
-</map>

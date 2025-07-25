@@ -1,5 +1,0 @@
-<map id="Pathfinder" name="Pathfinder">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,373,161,519"/>
-<area shape="rect" id="Node000002" href="$classGrid.html" title=" " alt="" coords="17,5,149,311"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,311,86,357,81,357,81,311"/>
-</map>

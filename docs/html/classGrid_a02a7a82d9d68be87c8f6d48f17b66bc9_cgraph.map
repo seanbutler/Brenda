@@ -1,5 +1,0 @@
-<map id="Grid::cycleTileType" name="Grid::cycleTileType">
-<area shape="rect" id="Node000001" title="Cycles a tile to the next type when clicked." alt="" coords="5,5,151,31"/>
-<area shape="rect" id="Node000002" href="$classGrid.html#ae448ea0d444c23fe89743430b040537c" title=" " alt="" coords="199,5,269,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,15,185,15,185,21,151,21"/>
-</map>
