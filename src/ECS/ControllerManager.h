@@ -20,11 +20,13 @@ public:
     Controller* create(unsigned int entityUID, std::string  type = "unknown" ) {
 
         Controller* ptr = nullptr;
+        std::cout << "Creating controller for entity " << entityUID << " with type: " << type << std::endl;
 
         if ( type == "player" ) {
             auto ctrl = std::make_unique<PlayerController>();
             ptr = ctrl.get();
             controllers[entityUID] = std::move(ctrl);
+            std::cout << "Created PlayerController for entity " << entityUID << std::endl;
             
         } else if ( type == "guardian" ) {
             auto ctrl = std::make_unique<Controller>();
